@@ -1,0 +1,27 @@
+html{
+    box-sizing: border-box;
+    font-size: 62,5%;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+.bg-color-nav{
+    background-color:#353a40;
+}
+.text-gray {
+    --bs-text-opacity: 1;
+    color: #6c757d!important;
+  }
+.text-green {
+    --bs-text-opacity: 1;
+    color: green !important;
+  }  
+.bg-card-op{
+    opacity: 100;
+}
+.container-grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+  }
+ 
